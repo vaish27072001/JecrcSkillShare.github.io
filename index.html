@@ -68,6 +68,48 @@
   background-color: #123;
   color: white;
 }
+        
+        .dropbtn {
+  background-color: #cc005f;
+  color: white;
+  padding: 16px;
+  font-size: 26px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+    background-color: #fff;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #a00146;
+}
+        
 </style>
     
     <body id="page-top">
@@ -103,8 +145,21 @@ function myFunction() {
                 
                 <div class="masthead-heading text-uppercase">The willingness to learn new skill is very high.
 </div>
-                <div class="masthead-subheading"></div>
+              <!--  
                 <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#portfolio">Register Now</a>
+-->
+                <div class="dropdown">
+  <button class="dropbtn">Register Now</button>
+  <div class="dropdown-content">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdOdYfOmt8ssmHhkYrz_z8uZlC7LGfHAt2_E5zmr1HxPRzucg/viewform?usp=sf_link">Boost up our Memory</a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSet8HXWilm0Ukzi3GbUB4F28AXA53pvw7Uc5fI23HFTyXgW1Q/viewform?usp=sf_link">Play with DIY</a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdVpJnqTfWSV1-IGO73_BAS8llxheXPUkhtqDQSK29OEmX8HQ/viewform?usp=sf_link">Mann ki Baat</a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSet8HXWilm0Ukzi3GbUB4F28AXA53pvw7Uc5fI23HFTyXgW1Q/viewform?usp=sf_link">Management</a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4RURj3GJVlSIFH4oLwl1E1uph-TErfcY7Vu03Kk84Lcud9g/viewform?usp=sf_link">Path to Success</a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSet8HXWilm0Ukzi3GbUB4F28AXA53pvw7Uc5fI23HFTyXgW1Q/viewform?usp=sf_link">Application Privacy</a>
+  </div>
+</div>
+
             </div>
         </header>
         <!-- Services-->
@@ -120,8 +175,8 @@ function myFunction() {
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="	fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3">Skill Shala presents you, an interactive event conducted by the Student Council of JECRC University, Skill-shala for classes 9th to 12th.</h4>
-                        <p class="text-muted"> A great chance for the students to enhance their skills mixed with fun learning, helping them to increase their mental potential.</p>
+                        <h4 class="my-3">Skill Shala presents you, an interactive event conducted by the Student Council of JECRC University. </h4>
+                        <p class="text-muted">Skill-shala is for classes 9th to 12th.<br> A great chance for the students to enhance their skills mixed with fun learning, helping them to increase their mental potential.</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
@@ -243,8 +298,8 @@ The event will be conducted every twice a month, so don't worry, if you do miss 
         <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact Persons</h2>
-                    <h3 style="color: #fff; font-size: 15px;" ><i>For all enquiries please feel free to contact us.</i> </h3><br>
+                    <h2 class="section-heading text-uppercase">Contact Us</h2>
+                    <h3 style="color: #fff; font-size: 15px;" ><i>For all enquiries please feel free to contact us.</i> </h3><br><br>
                 </div>
                 <div style="color: #fff; font-size: 20px; text-align: center;" > 
                     Mr. Yash Chhajer :&nbsp; &nbsp;+91 7073720488<br>
